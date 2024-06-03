@@ -1,0 +1,85 @@
+h1{
+font-family:'Brush Script MT', cursive;
+font-size: 40px;
+text-shadow: 3px 3px 3px #ababab;
+color: rgb(255, 136, 0);
+text-align: center;
+}
+    
+h3{
+font-family:'Courier New', monospace;
+font-size: 20px;
+text-align: center;
+}
+    
+h6{
+    font-family:'Roboto', sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: lightgrey;
+}
+
+p {
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: lightgrey;
+   
+}
+
+p:nth-of-type(even) {
+background-color: lightblue;
+}
+    
+h6:nth-of-type(even) {
+background-color: lightblue;
+}
+
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    }
+
+
+.lost {
+    color: rgba(101, 4, 4, 0.825);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.found {
+    color: #ffff0ee8;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.danger {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.safe {
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+
+footer {
+        background-color: gray;
+        color: #fff;
+        padding: 8px 0;
+        font-size: 10px; 
+      }
