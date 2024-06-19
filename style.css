@@ -1,85 +1,83 @@
-h1{
-font-family:'Brush Script MT', cursive;
-font-size: 40px;
-text-shadow: 3px 3px 3px #ababab;
-color: purple;
-text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Lyrics</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Amazing Grace</h1>
+    <h3> Hymn Writer - John Newton (1725 - 1807)</h3>
+  </header>
+  <main>
+    <h6><br>Stanza 1:</h6>
+    <p> Amazing grace! How <span class="sweet">sweet</span> the sound
+        
+        <br>that saved a wretch like me!
+        
+        <br>I once was <span class="lost">lost</span>, but now am <span class="found">found</span>;
+        
+        <br>was blind, but now I see. 
+    </p>
     
-h3{
-font-family:'Courier New', monospace;
-font-size: 20px;
-text-align: center;
-}
-    
-h6{
-    font-family:'Roboto', sans-serif;
-    text-decoration: underline;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: lightgrey;
-}
+    <h6><br>Stanza 2:</h6>
+    <p> 'Twas grace that taught my heart to fear,
+        
+        <br>and grace my fears relieved;
+        
+        <br>how precious did that grace appear
+        
+        <br>the hour I first believed. 
+    </p>
 
-p {
-    font-family:'Poppins', sans-serif;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: lightgrey;
-   
-}
+    <h6><br>Stanza 3:</h6>
+    <p> Through many <span class="danger">danger</span>, toils, and snares,
+        
+        <br>I have already come;
+        
+        <br>'tis grace hath brought me <span class="safe">safe</span> thus far,
+        
+        <br>and grace will lead me home.
+    </p>   
+    <h6><br>Stanza 4:</h6>
+    <p> The Lord has promised good to me,
+        
+        <br>His word my hope <span class="secures">secures</span>;
+        
+        <br>He will my shield and portion be,
+        
+        <br>as long as life endures.
+    </p>    
+    <h6><br>Stanza 5:</h6>
+    <p> Yea, when this flesh and heart shall fail,
+        
+        <br>and mortal life shall cease,
+        
+        <br>I shall possess, within the veil,
+        
+        <br>a life of joy and peace.
+    </p>   
+    <h6><br>Stanza 6:</h6>
+    <p> When we've been there ten thousand years,
+        
+        <br>bright shining as the sun,
+        
+        <br>we've no less days to sing God's praise
+        
+        <br>than when we first begun.
+    </p>
+  </main>
 
-p:nth-of-type(even) {
-background-color: lightblue;
-}
-    
-h6:nth-of-type(even) {
-background-color: lightblue;
-}
-
-
-p::first-letter {
-    font-size: 1.5em;
-    font-weight: bold;
-    }
-
-
-.lost {
-    color: rgba(101, 4, 4, 0.825);
-    text-transform: uppercase;
-    font-weight: bold;
-    
-}
-
-.found {
-    color: #ffff0ee8;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Dancing Script', cursive;
-    
-}
-
-.danger {
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
-    
-}
-
-.safe {
-    color: green;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Dancing Script', cursive;
-    
-}
+  <footer>
+    <p>&copy; 2024 My Lyrics. All rights reserved.</p>
+  </footer>
 
 
-footer {
-        background-color: gray;
-        color: #fff;
-        padding: 8px 0;
-        font-size: 10px; 
-      }
+</body>
+</html>
